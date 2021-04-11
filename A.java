@@ -1,0 +1,1 @@
+class A{static void main(String[] a) {int s=0,i=0,w=2;while(i<24){s+=a[i<9?i:"246036147258048".charAt(i-9)-48].charAt(0)-48;if(++i%3<1){w=s==0?0:s==3?1:w;s = 0;}}System.out.printf(w < 1 ? "Attila%s" : w > 1 ? "Nincs%ses" : "Bella%s", " nyert");}}
